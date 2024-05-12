@@ -1,0 +1,23 @@
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(180deg, #0c0c1d,#111132);
+  
+    .skill-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+      max-width: 600px; /* Adjust as needed */
+      
+      button {
+        width: calc(33.33% - 10px); /* Adjust as needed to accommodate margins */
+        height: 60px;
+        background-color: aliceblue;
+      }
+    }
+  }
+  
